@@ -107,18 +107,24 @@ Then open any form and click **Fill this page**.
 
 **Which browsers?** Chrome 111+, and Chromium browsers such as Edge and Brave.
 
-## Devnetra Consultancy
+## About Devnetra Consultancy
 
-<table>
-  <tr>
-    <td><img src="icons/icon48.png" width="48" alt=""></td>
-    <td>
-      <strong>Devnetra Consultancy</strong><br>
-      Thoughtful, privacy-first software.<br>
-      📧 <a href="mailto:devnetraconsultancy@gmail.com">devnetraconsultancy@gmail.com</a> for support, feedback, partnerships or licensing.
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="mailto:devnetraconsultancy@gmail.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/brand/devnetra-logo-white-text.svg">
+      <img src="docs/brand/devnetra-logo-dark-text.svg" alt="Devnetra Consultancy" width="320">
+    </picture>
+  </a>
+</p>
+
+**Devnetra Consultancy** designs and builds thoughtful, privacy-first software. Smriti is our answer to a simple question: why should a form filler need your data on someone else's server?
+
+| | |
+| --- | --- |
+| 🎯 **Focus** | Privacy-first tools that work offline and ask for nothing |
+| 🛡️ **Promise** | No account, no tracking, no network access |
+| 📧 **Contact** | [devnetraconsultancy@gmail.com](mailto:devnetraconsultancy@gmail.com) for support, feedback, partnerships or licensing |
 
 If Smriti saves you time, tell a friend who fills in a lot of forms.
 
