@@ -1,0 +1,43 @@
+Smriti: Private Form Filler
+Copyright (c) 2026 Devnetra Consultancy. All rights reserved.
+
+PROPRIETARY SOFTWARE LICENSE
+
+This software, including its source code, design, icons, artwork, documentation
+and the name "Smriti" as used for this product (together, the "Software"), is
+owned by Devnetra Consultancy and is protected by copyright law and
+international treaties.
+
+1. Permitted use. You may install and use the Software, as published by
+   Devnetra Consultancy, on devices you own or control, for personal or
+   internal business use.
+
+2. Restrictions. Without prior written permission from Devnetra Consultancy you
+   may not:
+   a. copy, modify, translate, adapt or create derivative works of the Software
+      or any part of it;
+   b. distribute, sublicense, sell, rent, lend, publish or otherwise make the
+      Software or any part of it available to others, including re-publishing
+      it in any extension store under any name;
+   c. remove, alter or obscure any copyright, trademark or other notice in the
+      Software;
+   d. use the Software, its source code or its artwork to train, fine-tune or
+      evaluate machine-learning or AI models, or feed it to automated systems
+      for the purpose of reproducing, rewriting or re-licensing it.
+
+3. Ownership. The Software is licensed, not sold. Devnetra Consultancy keeps all
+   rights not expressly granted in this license.
+
+4. No warranty. The Software is provided "as is", without warranty of any kind,
+   express or implied, including fitness for a particular purpose. You are
+   responsible for keeping your password and recovery key safe; lost
+   credentials cannot be recovered by anyone.
+
+5. Limitation of liability. To the maximum extent permitted by law, Devnetra
+   Consultancy is not liable for any indirect, incidental or consequential
+   damages, or for any loss of data, arising from use of the Software.
+
+6. Termination. This license ends automatically if you break any of its terms.
+   You must then stop using and delete all copies of the Software.
+
+Permission requests and questions: devnetraconsultancy@gmail.com

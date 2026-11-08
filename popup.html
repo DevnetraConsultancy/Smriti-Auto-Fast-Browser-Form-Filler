@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- Smriti: Private Form Filler. Copyright (c) 2026 Devnetra Consultancy (devnetraconsultancy@gmail.com). All rights reserved. Proprietary software: copying, modifying or redistributing any part without written permission is prohibited. See LICENSE. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Smriti</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="popup">
+  <section class="pass" id="pass" aria-label="Active profile">
+    <div class="pass-top">
+      <span class="brand"><img class="logo" src="icons/icon32.png" alt="">Smriti</span>
+      <span class="pass-seal" id="seal">Encrypted</span>
+    </div>
+    <div class="pass-who">
+      <span class="monogram" id="monogram" aria-hidden="true"></span>
+      <div class="pass-pick">
+        <label for="profile" id="pickLabel">Fill as</label>
+        <select id="profile"></select>
+        <p id="summary"></p>
+      </div>
+    </div>
+  </section>
+  <main class="popup-body">
+    <p class="site" id="site" hidden></p>
+    <form id="unlock" class="unlock" hidden>
+      <label for="pw">Password</label>
+      <div class="unlock-row">
+        <input id="pw" type="password" autocomplete="current-password" required>
+        <button class="btn primary" id="unlockBtn" type="submit">Unlock</button>
+      </div>
+      <p class="form-error" id="pwError" role="alert"></p>
+      <a href="#" id="forgot" class="quiet-link">Forgot password?</a>
+    </form>
+    <div id="setup" class="setup-note" hidden>
+      <p>Set a password to encrypt your profiles before filling.</p>
+      <button id="setupBtn" class="btn primary fill" type="button">Set up encryption</button>
+    </div>
+    <button id="fill" class="btn primary fill" type="button" hidden>Fill this page</button>
+    <div id="result" role="status" aria-live="polite"></div>
+  </main>
+  <footer class="foot">
+    <a href="#" id="edit">Edit profiles</a>
+    <span class="foot-right">
+      <button id="lock" class="link-btn" type="button" hidden>Lock</button>
+      <span id="shortcut"></span>
+    </span>
+  </footer>
+  <script src="filler.js"></script>
+  <script src="vault.js"></script>
+  <script src="shared.js"></script>
+  <script src="ui.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

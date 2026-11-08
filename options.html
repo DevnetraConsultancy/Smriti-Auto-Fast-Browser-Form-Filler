@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- Smriti: Private Form Filler. Copyright (c) 2026 Devnetra Consultancy (devnetraconsultancy@gmail.com). All rights reserved. Proprietary software: copying, modifying or redistributing any part without written permission is prohibited. See LICENSE. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smriti profiles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="options">
+  <aside class="rail">
+    <div class="brand"><img class="logo" src="icons/icon48.png" alt="">Smriti</div>
+    <nav aria-label="Profiles and settings">
+      <h2>Profiles</h2>
+      <div id="profileList"></div>
+      <button id="addProfile" class="rail-add" type="button">Add profile</button>
+      <button id="openSettings" class="rail-link" type="button">Settings and backup</button>
+    </nav>
+    <footer class="rail-foot">
+      <p class="rail-credit">Invented with <span id="railHeart"></span><span class="sr">love</span> by <span class="rail-maker">Devnetra Consultancy</span></p>
+      <a class="rail-mail" id="railMail" href="mailto:devnetraconsultancy@gmail.com" title="Email Devnetra Consultancy">devnetraconsultancy@gmail.com</a>
+      <p class="rail-note" id="railNote">Encrypted, stored only on this device</p>
+    </footer>
+  </aside>
+  <main class="sheet">
+    <div id="saved" role="status"></div>
+    <div id="editor"></div>
+  </main>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="dlg" aria-labelledby="dlgTitle" aria-describedby="dlgBody">
+    <h2 id="dlgTitle"></h2>
+    <p id="dlgBody"></p>
+    <div id="dlgFields" class="dlg-fields"></div>
+    <p class="form-error" id="dlgError" role="alert"></p>
+    <div class="dlg-actions">
+      <button id="dlgCancel" class="btn" type="button">Cancel</button>
+      <button id="dlgOk" class="btn primary" type="button"></button>
+    </div>
+  </dialog>
+  <input type="file" id="importFile" accept=".smriti,.ffbackup,.json,.xlsx" class="sr" tabindex="-1" aria-label="Choose a backup file">
+
+  <script src="xlsx.js"></script>
+  <script src="vault.js"></script>
+  <script src="shared.js"></script>
+  <script src="ui.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
